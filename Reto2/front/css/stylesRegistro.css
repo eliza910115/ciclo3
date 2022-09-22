@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue;
+    background-image: url(https://img.freepik.com/foto-gratis/cerrar-mano-escribiendo-vista-superior-cuaderno_23-2148888824.jpg?w=1380&t=st=1663214883~exp=1663215483~hmac=abdb2c1cf3b3d57e199e23708c0edbddd0a21ca0af2b9d9f69e23f2142d96af1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#container{
+display: flex;
+flex-direction: column;
+background-color: rgba(255, 255, 255, 0);
+
+}
+
+
+
+i{
+    display: flex;
+    font-size: 400%;
+    justify-content: center;
+    color: #8e9195;
+}
+
+#container2{
+flex-direction: column;
+background-color: #FFF;
+padding: 20px;
+border-radius: 5px;
+margin-top: 15%;
+}
+
+#caja { 
+    font-family: sans-serif;
+    font-size: 18px; 
+    font-weight: 400; 
+    color: #ffffff; 
+    background:#000000 }
+
+ h1 {
+        font-family: 'Poppins', sans-serif;
+       }
+       
+h2 {
+           font-family: 'Poppins', sans-serif;
+    }
+       
+h3 {
+    font-family: 'Poppins', sans-serif;
+    }
+       
+p {
+    font-family: 'Roboto', sans-serif;
+    }

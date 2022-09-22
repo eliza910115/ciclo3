@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link rel="stylesheet" href="css/stylesHome.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="../../img/logou.jpg" alt="logo" width="120" heigth="60">
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../../menu.html">Home</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >Docentes</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href=".\html\docentes\gestion_actividades.html">Gestión Actividades</a></li>
+                <li><a class="dropdown-item" href=".\html\docentes\gestion_notas.html">Gestión Notas</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Cambiar Contraseña</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+              Estudiantes
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="editarinfo_estudiantes.html">Editar Información</a></li>
+                <li><a class="dropdown-item" href="../../cambiocontrasena.html">Cambiar Contraseña</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Materias</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >Administrador</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../../html/superadministrador/editarestudiantes.html">Editar Estudiantes</a></li>
+                <li><a class="dropdown-item" href="../../html/superadministrador/editarprofesores.html">Editar Profesores</a></li>
+                <li><a class="dropdown-item" href="../../html/superadministrador/editarnotas.html">Editar Notas</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="/Reto2/front/cambiocontrasena.html">Cambiar Contraseña</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link "
+                href="../../mesaAyuda.html"
+                >Mesa de Ayuda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../../login.html">Cerrar Sesión</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+    <!--FIN MENU -->
+
+    <div class="container mt-5" >
+        <h2 style="text-align: center;">Editar Estudiantes</h2>
+
+        <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">Carrera</th>
+                <th scope="col">Nombre y Apellido del Estudiante</th>
+                <th scope="col">Teléfono</th>
+                <th scope="col">Correo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-active">
+                <th scope="row">Arquitectura</th>
+                <td>Juan Juarez</td>
+                <td>300 345 6580</td>
+                <td>jjuarez@lau.edu.com</td>
+              </tr>
+              <tr>
+                <th scope="row">Derecho</th>
+                <td>Peter Parker</td>
+                <td>311 123 4567</td>
+                <td>pparker@lau.edu.com</td>
+              </tr>
+              <tr class="table-primary">
+                <th scope="row">Medecina</th>
+                <td>Reed Richards</td>
+                <td>321 123 4321</td>
+                <td>rrichards@lau.edu.com</td>
+              </tr>
+            </tbody>
+          </table>

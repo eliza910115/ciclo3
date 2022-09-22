@@ -1,0 +1,57 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+    background-image: url(https://img.freepik.com/foto-gratis/smartphone-notebook-auriculares-mesa_23-2148036919.jpg?w=1380&t=st=1663214591~exp=1663215191~hmac=036f20dc2633091dd0dd5a039ffe88a4c11e021cf82c4f44f883ceac2df5c2f5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+#container{
+display: flex;
+flex-direction: column;
+margin-top: 10%;
+background-color: rgba(255, 255, 255, 0);
+border:1px solid black
+}
+
+
+
+i{
+    display: flex;
+    font-size: 400%;
+    justify-content: center;
+    color: #8e9195;
+}
+
+#container2{
+flex-direction: column;
+background-color: #FFF;
+
+border-radius: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.google.com/specimen/Poppins?query=poppins');
+
+h1 {
+ font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+   }
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+   }
+
+p {
+ font-family: 'Roboto', sans-serif;
+}
