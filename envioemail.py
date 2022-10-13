@@ -20,7 +20,7 @@ def recuperar_email(email_destino):
     remitente = "eblandon@uninorte.edu.co"
     destinatario = email_destino
     mensaje="<hr>"
-    mensaje = "<h2>Recuperacion de Cuenta</h2>"
+    mensaje = "<h2>Recuperación de Cuenta</h2>"
     mensaje =mensaje+ "<a href='http://https://mensajeria-equipo6.herokuapp.com/restablecer/"+ email_destino +"'>Ingrese Aqui para restablecer su contraseña</a>" 
     mensaje=mensaje+"<hr>"
     email = EmailMessage()
